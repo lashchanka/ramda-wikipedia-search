@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { pipe, tap, ifElse, isEmpty, curry } from 'ramda';
+import { pipe, tap, ifElse, isEmpty } from 'ramda';
 import getInputValue from './getInputValue';
 import getUrl from './getUrl';
-import Results from './Result';
+import Results from './Results';
 
 const render = markup => {
     const resultsElement = document.getElementById('results');
